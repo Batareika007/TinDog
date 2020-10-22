@@ -92,7 +92,7 @@ p {
 /* ========== Testimonials ========== */
 
 #testimonials{
-    padding: 7% 15%;
+    /* padding: 7% 15%; */
     text-align: center;
     background-color:#ef8172;
     color: #fff;
@@ -102,6 +102,11 @@ p {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
+}
+
+#testimonial-carousel{
+        padding: 7% 15%;
+
 }
 
 /* ========== Press ========== */
@@ -115,4 +120,10 @@ p {
 .press-image{
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/* ============ pricing =========== */
+
+#pricing{
+    text-align: center;
 }
