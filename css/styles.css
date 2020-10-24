@@ -79,8 +79,8 @@ p {
     background-color: #fff;
     position: relative;
     /* z-index: 1; */
-    
-    
+
+
 }
 
 .feature-box {
@@ -140,4 +140,46 @@ p {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+/* ======== CTA Section ========== */
+
+#cta{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.cta-heading{
+    /* padding-top: 2%; */
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/* ======= Footer Section ===========  */
+
+#footer{
+    text-align: center;
+    padding: 7% 15% ;
+}
+
+.footer-icons{
+    margin: 20px 10px;
+}
+
+
+
+/*============= Media Query ============= */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        transform: rotate(0deg);
+        position: static;
+    }
 }
