@@ -1,19 +1,21 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-}
+/* ==== Containers === */
 
 .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
 }
+
+
+
+
 
 /* ===== Headings ======== */
 
@@ -31,13 +33,25 @@ p {
     color: #8f8f8f;
 }
 
+/* ===== Title Section ===== */
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
 /* ========== Navigation Bar ========== */
 
 
 
 .navbar {
     padding: 0 0 4.5rem;
-    /* padding-bottom: 2.5rem; */
+    
 }
 
 .navbar-brand {
@@ -73,7 +87,7 @@ p {
 /* ========== Features Section ========== */
 
 #features {
-    padding: 7% 15%;
+    
     background-color: #fff;
     position: relative;
     /* z-index: 1; */
@@ -84,7 +98,6 @@ p {
 }
 
 .feature-box {
-    text-align: center;
     padding: 5%;
 }
 
@@ -101,8 +114,6 @@ p {
 /* ========== Testimonials ========== */
 
 #testimonials {
-    /* padding: 7% 15%; */
-    text-align: center;
     background-color: #ef8172;
     color: #fff;
 }
@@ -118,16 +129,12 @@ p {
     margin: 20px;
 }
 
-#testimonial-carousel {
-    padding: 7% 15%;
 
-}
 
 /* ========== Press ========== */
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -139,7 +146,6 @@ p {
 /* ============ pricing Section =========== */
 
 #pricing {
-    text-align: center;
     padding: 100px;
 }
 
@@ -155,8 +161,7 @@ p {
 /* ======== CTA Section ========== */
 
 #cta{
-    padding: 7% 15%;
-    text-align: center;
+  
     background-color: #ff4c68;
     color: #fff;
 }
@@ -170,10 +175,7 @@ p {
 
 /* ======= Footer Section ===========  */
 
-#footer{
-    text-align: center;
-    padding: 7% 15% ;
-}
+
 
 .footer-icons{
     margin: 20px 10px;
