@@ -3,27 +3,12 @@ body {
     text-align: center;
 }
 
-/* ==== Containers === */
-
-.container-fluid {
-    padding: 7% 15%;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
 }
 
-
-/* ===== Sections ========= */
-
-.colored-section{
-    background-color: #ff4c68;
-    color: #fff;
-}
-
-.white-section{
-    background-color: #fff;
-
+p {
+    color: #8f8f8f;
 }
 
 /* ===== Headings ======== */
@@ -38,9 +23,27 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5;
 }
 
-p {
-    color: #8f8f8f;
+/* ==== Containers === */
+
+.container-fluid {
+    padding: 7% 15%;
 }
+
+
+
+/* ===== Sections ========= */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+
+}
+
+
 
 /* ===== Title Section ===== */
 
